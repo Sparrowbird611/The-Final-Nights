@@ -85,12 +85,12 @@
 
 /datum/discipline_power/animalism/summon_wolf
 	name = "Spectral Wolf"
-	desc = "Summons a phantasmal wolf to attack the target."
+	desc = "Summons a rabid dog to attack the target."
 
 	check_flags = DISC_CHECK_IMMOBILE | DISC_CHECK_CAPABLE | DISC_CHECK_LYING
 
 	level = 3
-	violates_masquerade = TRUE
+	violates_masquerade = FALSE
 
 	cooldown_length = 8 SECONDS
 
